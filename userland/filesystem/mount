@@ -1,0 +1,5 @@
+#!/bin/sh
+while :
+    do
+        mount /dev/sd0a /new
+done

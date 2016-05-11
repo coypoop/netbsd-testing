@@ -1,0 +1,13 @@
+some lockups of the system without a crash dump
+- maybe KERNEL_LOCK deadlock?
+
+core dumps (not uploaded):
+
+netbsd.8:
+mount SD card, disconnect. wait a while. try to mount again.
+- PR/51129
+
+netbsd.9:
+after running tests for a while, stop to run them.
+panic after some time.
+- double free of blocks?

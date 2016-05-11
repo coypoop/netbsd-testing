@@ -1,0 +1,9 @@
+#!/bin/sh
+while :
+    do
+        ls /newa
+	ls /new
+	echo a > /new/asd
+	cat /new
+	fsck /dev/sd0a
+done

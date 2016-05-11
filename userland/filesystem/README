@@ -1,0 +1,7 @@
+Run these tests by running a combination such as:
+
+./mount
+
+./umount
+
+./file-op
