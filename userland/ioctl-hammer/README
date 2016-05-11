@@ -1,0 +1,4 @@
+Used in PR/51081 to more frequently generate a panic when attaching or
+detaching a USB wifi card such as urtwn.
+
+Should no longer be relevant, but might be useful in the future.
