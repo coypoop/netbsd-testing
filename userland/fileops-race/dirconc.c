@@ -44,8 +44,8 @@
 #include <stdarg.h>
 #include <string.h>
 
-#define NTRIES    100	/* loop count */
-#define NPROCS    5	/* actually totals 4x this +1 processes */
+#define NTRIES    10000	/* loop count */
+#define NPROCS    50	/* actually totals 4x this +1 processes */
 
 #define TESTDIR   "dirconc"
 #define NNAMES    4
