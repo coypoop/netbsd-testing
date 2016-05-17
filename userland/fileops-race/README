@@ -1,0 +1,6 @@
+Test from OS161 by dh.
+
+Run:
+gcc -lpthread dirconc.c
+mkdir 12938918192 # where this is some random number
+./a.out 12938918192
