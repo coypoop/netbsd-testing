@@ -1,6 +1,9 @@
 Test from OS161 by dh.
 OS161: http://os161.eecs.harvard.edu
-Currently seems to fail to cleanup (tested with -o log).
+
+stress tests (concurrent) rename, mkdir, rmdir.
+Currently seems to fail to cleanup (tested with -o log),
+but only with large NPROC/NTRIES.
 
 Run:
 gcc -lpthread dirconc.c
